@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fefefe;
+}
+
+#tasks, #suggestions {
+    list-style: none;
+    padding: 0;
+}
+
+#tasks li, #suggestions li {
+    padding: 10px;
+    background: #f9f9f9;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 14px;
+    width: calc(100% - 110px); 
+    max-width: 300px;
+}
+
+button {
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+

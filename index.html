@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Suggestion Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="todo" class="section">
+            <h2>To-Do List</h2>
+            <ul id="tasks">
+                <li>Sample Task 1</li>
+                <li>Sample Task 2</li>
+            </ul>
+            <input type="text" id="newTask" placeholder="Add a new task...">
+            <button onclick="addTask()">Add Task</button>
+        </section>
+        
+        <section id="suggestion-box" class="section">
+            <h2>Suggestion Box</h2>
+            <ul id="suggestions">
+                <li>Sample Suggestion 1</li>
+                <li>Sample Suggestion 2</li>
+            </ul>
+            <input type="text" id="newSuggestion" placeholder="Add a new suggestion...">
+            <button onclick="addSuggestion()">Submit Suggestion</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your App</p>
+    </footer>
+
+    
+    <script src="style.css"></script>
+</body>
+</html>
